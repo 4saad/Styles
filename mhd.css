@@ -1,4 +1,5 @@
-label.input-control.checkbox.style-aware {
-    color: #00496e /* Change text color to red */
-    font-weight: bold; /* Make text bold */
+.theme-entry .panel-header div, 
+.theme-entry .grid-header-wrapper div {
+    color: #00496e; /* Text color */
+    background-color: #e6edf1; /* Background color */
 }
