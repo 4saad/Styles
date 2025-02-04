@@ -116,3 +116,7 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
 {
     color:white
 }
+.SFC .SourceCode-Forms-Controls-Web-Table {
+    color: red;
+}
+
