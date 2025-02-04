@@ -16,10 +16,13 @@
 }
 .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c
 {
-    border-color : #00496e; /* Text color */
-    ackground-color: #e6edf1; /* Background color */
+    border: 2px solid #00496e; 
+    background-color: #e6edf1; /* Background color */
 }
-
+.theme-entry .input-control.text-input .input-control-m-c
+{
+     border: 2px solid #00496e; 
+}
 .theme-entry .input-control.radio.style-aware.checked .svg-radio-btn-checked {
     fill:  #00496e; 
 }
