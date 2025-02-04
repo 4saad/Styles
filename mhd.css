@@ -102,6 +102,7 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
 .theme-entry .root-table.Grid-Layout>.editor-cell.lastrow, .theme-entry .root-table.editor-grid>.editor-cell.lastrow {
     padding-bottom: 0;
     color: #00496e; 
+    background-color: white;    
 }
 .Grid-Layout>.editor-cell.align-middle, .SourceCode-Forms-Controls-Web-Table>tbody>tr>.editor-cell.align-middle
 {
