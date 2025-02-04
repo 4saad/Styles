@@ -44,7 +44,7 @@
 }
 .theme-entry .grid .grid-column-header-cell .grid-column-header-text
 {
-     color: #00496e; /* Text color */
+     color: white; /* Text color */
 }
 .theme-entry a.SourceCode-Forms-Controls-Web-Button {
     margin: 10px; /* Adjust as needed */
