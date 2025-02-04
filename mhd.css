@@ -14,3 +14,38 @@
      color: #00496e; /* Text color */
     font-weight: 250;
 }
+.theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c
+{
+    border-color : #00496e; /* Text color */
+    ackground-color: #e6edf1; /* Background color */
+}
+
+.theme-entry .input-control.radio.style-aware.checked .svg-radio-btn-checked {
+    fill:  #00496e; 
+}
+.theme-entry .input-control.checkbox.style-aware svg .svg-checkbox-box
+{
+     fill:  #00496e; 
+}
+.theme-entry .input-control.radio.style-aware.checked input[type="radio"] {
+    border: 2px solid  #00496e; /* Change border color to red */
+}
+.theme-entry a.SourceCode-Forms-Controls-Web-Button
+{
+    background :  #00496e;
+    
+}
+.theme-entry .grid-header-wrapper .grid-header-text>span, .theme-entry .panel-header-wrapper .panel-header-text>span
+{
+     color: #00496e; /* Text color */
+    background-color: #e6edf1; /* Background color */
+    font-weight: bold;
+}
+.theme-entry .grid .grid-column-header-cell .grid-column-header-text
+{
+     color: #00496e; /* Text color */
+}
+.theme-entry a.SourceCode-Forms-Controls-Web-Button {
+    margin: 10px; /* Adjust as needed */
+}
+
