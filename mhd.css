@@ -108,3 +108,11 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
 {
      background-color: #00496e; 
 }
+.theme-entry h2
+{
+    color : white
+}
+.Grid-Layout>.editor-cell.align-center, .SourceCode-Forms-Controls-Web-Table>tbody>tr>.editor-cell.align-center
+{
+    color:white
+}
