@@ -21,7 +21,7 @@
 }
 .theme-entry .input-control.text-input .input-control-m-c
 {
-     border: 2px solid #00496e; 
+     border: 2px solid #00496e !important; 
      background-color: #e6edf1; /* Background color */
 }
 .theme-entry .input-control.radio.style-aware.checked .svg-radio-btn-checked {
@@ -81,3 +81,16 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
     border: 2px solid #00496e; 
     background: #e6edf1;
 }
+.theme-entry .input-control.text-input.readonly .input-control-m-c, .theme-entry .input-control.text-input.read-only .input-control-m-c
+{
+     background-color: #e6edf1;
+    background-color: #e6edf1; /* Background color */
+    
+}
+.theme-entry .grid table.grid-column-header-table td {
+    background-color: #00496e; /* Set background color */
+    color: white; /* Set font color to white */
+    font-weight: bold; /* Make font bold */
+    border: none; /* Remove column separator (borders) */
+}
+
