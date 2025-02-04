@@ -99,3 +99,11 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
     border-collapse: collapse; /* Ensures the border surrounds the table properly */
 }
 
+.theme-entry .root-table.Grid-Layout>.editor-cell.lastrow, .theme-entry .root-table.editor-grid>.editor-cell.lastrow {
+    padding-bottom: 0;
+    color: #00496e; 
+}
+.Grid-Layout>.editor-cell.align-middle, .SourceCode-Forms-Controls-Web-Table>tbody>tr>.editor-cell.align-middle
+{
+     background-color: #00496e; 
+}
