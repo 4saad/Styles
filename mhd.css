@@ -104,10 +104,7 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
     color: #00496e; 
     background-color: white;    
 }
-.Grid-Layout>.editor-cell.align-middle, .SourceCode-Forms-Controls-Web-Table>tbody>tr>.editor-cell.align-middle
-{
-     background-color: #00496e; 
-}
+
 .theme-entry h2
 {
     color : white
