@@ -93,4 +93,9 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
     font-weight: bold; /* Make font bold */
     border: none; /* Remove column separator (borders) */
 }
+/* Add a border around the entire grid */
+.theme-entry .grid table.grid-column-header-table {
+    border: 2px solid #00496e; /* Change color and width as needed */
+    border-collapse: collapse; /* Ensures the border surrounds the table properly */
+}
 
