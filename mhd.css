@@ -6,7 +6,7 @@
 }
 .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox
 {
-    border: 2px solid #00496e; /* Sets the border color to red */
+    border: 2px solid #00496e; 
     background: #e6edf1;
 }
 .theme-entry span.SourceCode-Forms-Controls-Web-Label
@@ -71,4 +71,13 @@ html, body, form
 {
     background : white;
 }
-
+html[dir=ltr] .theme-entry .grid-header-wrapper .grid-header-controls, html[dir=ltr] .theme-entry .panel-header-wrapper .grid-header-controls, 
+html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir=ltr] .theme-entry .panel-header-wrapper .panel-header-controls
+{
+    background-color: #e6edf1;
+}
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.readonly, .theme-entry input[type=text].input-control.readonly, .theme-entry input[type=password].input-control.readonly 
+{
+    border: 2px solid #00496e; 
+    background: #e6edf1;
+}
