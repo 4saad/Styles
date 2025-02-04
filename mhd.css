@@ -9,3 +9,8 @@
     border: 2px solid #00496e; /* Sets the border color to red */
     background: #e6edf1;
 }
+.theme-entry span.SourceCode-Forms-Controls-Web-Label
+{
+     color: #00496e; /* Text color */
+    font-weight: 250;
+}
