@@ -23,12 +23,8 @@
 .theme-entry .input-control.radio.style-aware.checked .svg-radio-btn-checked {
     fill:  #00496e; 
 }
-.theme-entry .input-control.checkbox.style-aware svg .svg-checkbox-box
-{
-     fill:  #00496e; 
-}
 .theme-entry .input-control.radio.style-aware.checked input[type="radio"] {
-    border: 2px solid  #00496e; /* Change border color to red */
+    border: 2px solid  #00496e; 
 }
 .theme-entry a.SourceCode-Forms-Controls-Web-Button
 {
@@ -48,4 +44,8 @@
 .theme-entry a.SourceCode-Forms-Controls-Web-Button {
     margin: 10px; /* Adjust as needed */
 }
-
+.theme-entry .day.selected,
+{
+    border-color :  #00496e;
+    background-color :  #00496e;   
+}
