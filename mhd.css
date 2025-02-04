@@ -53,3 +53,12 @@
     border-color :  #00496e;
     background-color :  #00496e;   
 }
+html[dir="ltr"] .theme-entry .grid-header-wrapper .grid-header-text,
+html[dir="ltr"] .theme-entry .panel-header-wrapper .grid-header-text,
+html[dir="ltr"] .theme-entry .grid-header-wrapper .panel-header-text,
+html[dir="ltr"] .theme-entry .panel-header-wrapper .panel-header-text {
+  
+    background-color: #00496e;   
+    outline: 5px solid #e6edf1; /* Adds red border around margin */
+}
+
