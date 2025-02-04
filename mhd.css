@@ -22,6 +22,7 @@
 .theme-entry .input-control.text-input .input-control-m-c
 {
      border: 2px solid #00496e; 
+     background-color: #e6edf1; /* Background color */
 }
 .theme-entry .input-control.radio.style-aware.checked .svg-radio-btn-checked {
     fill:  #00496e; 
