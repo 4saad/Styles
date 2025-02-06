@@ -116,4 +116,10 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
 #a90f676f-f5f5-f21d-f2bd-7fb19aaf28c9 {
     background-color:   #00496e;
 }
-
+.theme-entry .view .panel-header-wrapper, .theme-entry .view-canvas .panel-header-wrapper, .theme-entry .view .grid-header-wrapper, .theme-entry .view-canvas .grid-header-wrapper
+{
+    background-color:   #00496e;
+}
+select {
+    color: white;
+}
