@@ -120,6 +120,6 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
 {
     background-color:   #e6edf1;
 }
-select {
-    color: white;
+.collapse-vertical {
+    color: #00496e;
 }
