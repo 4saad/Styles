@@ -6,7 +6,7 @@
 }
 .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox
 {
-    border: 1px solid #00496e; 
+    border: 1px  #00496e; 
     background: #e6edf1;
 }
 .theme-entry span.SourceCode-Forms-Controls-Web-Label
@@ -16,7 +16,7 @@
 }
 .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c
 {
-    border: 1px solid #00496e; 
+    border: 1px  #00496e; 
     background-color: #e6edf1; /* Background color */
 }
 .theme-entry .input-control.text-input .input-control-m-c
@@ -60,7 +60,7 @@ html[dir="ltr"] .theme-entry .grid-header-wrapper .panel-header-text,
 html[dir="ltr"] .theme-entry .panel-header-wrapper .panel-header-text {
   
     background-color: #e6edf1;   
-    outline: 5px solid #e6edf1; /* Adds red border around margin */
+    outline: 5px  #e6edf1; /* Adds red border around margin */
 }
 html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     border-width: 1px 1px 1px 0 !important; 
@@ -78,7 +78,7 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
 }
 .theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.readonly, .theme-entry input[type=text].input-control.readonly, .theme-entry input[type=password].input-control.readonly 
 {
-    border: 1px solid #00496e; 
+    border: 1px  #00496e; 
     background: #e6edf1;
 }
 .theme-entry .input-control.text-input.readonly .input-control-m-c, .theme-entry .input-control.text-input.read-only .input-control-m-c
@@ -118,7 +118,7 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
 }
 .theme-entry .view .panel-header-wrapper, .theme-entry .view-canvas .panel-header-wrapper, .theme-entry .view .grid-header-wrapper, .theme-entry .view-canvas .grid-header-wrapper
 {
-    background-color:   #00496e;
+    background-color:   #e6edf1;
 }
 select {
     color: white;
