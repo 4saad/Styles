@@ -6,7 +6,7 @@
 }
 .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox
 {
-    border: 1px  #00496e; 
+    border: 1px  solid  #c1c1c1; 
     background: #e6edf1;
 }
 .theme-entry span.SourceCode-Forms-Controls-Web-Label
@@ -16,19 +16,19 @@
 }
 .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c
 {
-    border: 1px  #00496e; 
+    border: 1px solid  #c1c1c1; 
     background-color: #e6edf1; /* Background color */
 }
 .theme-entry .input-control.text-input .input-control-m-c
 {
-     border: 1px solid #00496e !important; 
+     border: 1px solid  #c1c1c1 !important; 
      background-color: #e6edf1; /* Background color */
 }
 .theme-entry .input-control.radio.style-aware.checked .svg-radio-btn-checked {
     fill:  #00496e; 
 }
 .theme-entry .input-control.radio.style-aware.checked input[type="radio"] {
-    border: 1px solid  #00496e; 
+    border: 1px solid  solid  #c1c1c1; 
 }
 .theme-entry a.SourceCode-Forms-Controls-Web-Button
 {
@@ -65,7 +65,7 @@ html[dir="ltr"] .theme-entry .panel-header-wrapper .panel-header-text {
 html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons {
     border-width: 1px 1px 1px 0 !important; 
     border-style: solid;  
-    border-color: #00496e; 
+    border-color: #c1c1c1; 
 }
 html, body, form
 {
@@ -78,7 +78,7 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
 }
 .theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.readonly, .theme-entry input[type=text].input-control.readonly, .theme-entry input[type=password].input-control.readonly 
 {
-    border: 1px  #00496e; 
+    border: 1px  solid  #c1c1c1;
     background: #e6edf1;
 }
 .theme-entry .input-control.text-input.readonly .input-control-m-c, .theme-entry .input-control.text-input.read-only .input-control-m-c
@@ -95,7 +95,7 @@ html[dir=ltr] .theme-entry .grid-header-wrapper .panel-header-controls, html[dir
 }
 /* Add a border around the entire grid */
 .theme-entry .grid table.grid-column-header-table {
-    border: 1px solid #00496e; /* Change color and width as needed */
+    border: 1px solid  #c1c1c1; /* Change color and width as needed */
     border-collapse: collapse; /* Ensures the border surrounds the table properly */
 }
 
