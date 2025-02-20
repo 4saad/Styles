@@ -71,3 +71,7 @@ a#\30 0000000-0000-0000-0000-000000000000_4d558aef-c0d4-48ab-9389-79b38792a97c {
 {
     background: #e62b37 !important;
 }
+.theme-entry.psf div.sidebar div.logo > img {
+    width : 200px !important;
+    height: auto !important;
+}
