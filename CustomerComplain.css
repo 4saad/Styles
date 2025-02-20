@@ -1,52 +1,20 @@
-span#\38e815af-f24b-4d9b-ad3f-93b411df10c9 {
-    color: black; 
-    font-weight: bold;
-    background-color: white; /* Add background */
-    padding: 5px;
-    border-radius: 4px;
-}
-
-.card span#\38e815af-f24b-4d9b-ad3f-93b411df10c9 {
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-.theme-entry span.SourceCode-Forms-Controls-Web-Label.LabelWrap, 
-.theme-entry h1.SourceCode-Forms-Controls-Web-Label.LabelWrap, 
-.theme-entry h2.SourceCode-Forms-Controls-Web-Label.LabelWrap, 
-.theme-entry h3.SourceCode-Forms-Controls-Web-Label.LabelWrap, 
-.theme-entry h4.SourceCode-Forms-Controls-Web-Label.LabelWrap, 
-.theme-entry label.SourceCode-Forms-Controls-Web-Label.LabelWrap, 
-.theme-entry p.SourceCode-Forms-Controls-Web-Label.LabelWrap, 
-.theme-entry span.SourceCode-Forms-Controls-Web-DataLabel.LabelWrap, 
-.theme-entry h1.SourceCode-Forms-Controls-Web-DataLabel.LabelWrap, 
-.theme-entry h2.SourceCode-Forms-Controls-Web-DataLabel.LabelWrap, 
-.theme-entry h3.SourceCode-Forms-Controls-Web-DataLabel.LabelWrap, 
-.theme-entry h4.SourceCode-Forms-Controls-Web-DataLabel.LabelWrap, 
-.theme-entry label.SourceCode-Forms-Controls-Web-DataLabel.LabelWrap, 
-.theme-entry p.SourceCode-Forms-Controls-Web-DataLabel.LabelWrap {
+h2 {
     color: black; /* Set text color to black */
     position: relative; /* Required for pseudo-element */
-    padding-left: 10px; /* Space between text and vertical line */
+    padding-left: 40px; /* Space between text and vertical line */
 }
 
 /* Add a red vertical line to the left */
-.theme-entry h1.SourceCode-Forms-Controls-Web-Label.LabelWrap::before, 
-.theme-entry h2.SourceCode-Forms-Controls-Web-Label.LabelWrap::before, 
-.theme-entry h3.SourceCode-Forms-Controls-Web-Label.LabelWrap::before, 
-.theme-entry h4.SourceCode-Forms-Controls-Web-Label.LabelWrap::before, 
-.theme-entry h1.SourceCode-Forms-Controls-Web-DataLabel.LabelWrap::before, 
-.theme-entry h2.SourceCode-Forms-Controls-Web-DataLabel.LabelWrap::before, 
-.theme-entry h3.SourceCode-Forms-Controls-Web-DataLabel.LabelWrap::before, 
-.theme-entry h4.SourceCode-Forms-Controls-Web-DataLabel.LabelWrap::before {
+h2::before {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 4px; /* Thickness of the red line */
-    background-color: red; /* Red color for vertical line */
+    background-color: #e62b37; /* Red color for vertical line */
     border-radius: 2px; /* Optional: Rounded corners */
 }
+
 
 
