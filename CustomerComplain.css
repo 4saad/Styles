@@ -75,3 +75,11 @@ a#\30 0000000-0000-0000-0000-000000000000_4d558aef-c0d4-48ab-9389-79b38792a97c {
     width : 200px !important;
     height: auto !important;
 }
+body
+{
+  border-top :   8px solid  #e62b37 !important;
+}
+.theme-entry.psf div.sidebar
+{
+    border-top: 8px solid  #e62b37 !important;
+}
