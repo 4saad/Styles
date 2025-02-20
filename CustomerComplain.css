@@ -1,12 +1,12 @@
-span#\38 8e815af-f24b-4d9b-ad3f-93b411df10c9 {
-    color: blue; /* Change text color */
+span#\38e815af-f24b-4d9b-ad3f-93b411df10c9 {
+    color: black; 
     font-weight: bold;
-    background-color: yellow; /* Add background */
+    background-color: white; /* Add background */
     padding: 5px;
     border-radius: 4px;
 }
 
-.card span#\38 8e815af-f24b-4d9b-ad3f-93b411df10c9 {
+.card span#\38e815af-f24b-4d9b-ad3f-93b411df10c9 {
     font-size: 16px;
     text-transform: uppercase;
 }
