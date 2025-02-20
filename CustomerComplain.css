@@ -1,3 +1,4 @@
+
 h2 {
     color: black !important; /* Set text color to black */
     position: relative; /* Required for pseudo-element */
@@ -29,3 +30,9 @@ color:  gray !important ;
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected {
     background-color: #e7dede !important; /* Change text color to red for the active tab */
 }
+.theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected
+{
+    border-radius : 10px 10px 10px 10px;
+}
+    .theme-entry.psf div.sidebar
+    {width: max-content !important;}
