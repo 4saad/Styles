@@ -1,4 +1,4 @@
-
+div#\39 c50675f-a67a-44d3-96c7-d44818c1a686_f200ecd5-aa92-4581-8f9c-0541b29649ea_Table
 h2 {
     color: black !important; /* Set text color to black */
     position: relative; /* Required for pseudo-element */
@@ -51,4 +51,9 @@ color:  gray !important ;
     .theme-entry .form .view-canvas>.panel, .theme-entry #pgInnerPanel .view-canvas>.panel, .theme-entry .form-tabs>.tab-box-body .view-canvas>.panel, 
     .theme-entry #pgTabContent .view-canvas>.panel   {
     --sidebar-width-ratio: 3% !important;
+    }
+div#\39 c50675f-a67a-44d3-96c7-d44818c1a686_f200ecd5-aa92-4581-8f9c-0541b29649ea_Table
+    {
+        border-radius : 50px;
+        
     }
