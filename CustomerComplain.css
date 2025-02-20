@@ -95,6 +95,9 @@ body::before {
       color: black !important; /* Set text color to black */
     position: relative; /* Required for pseudo-element */
     padding-left: 40px !important; /* Space between text and vertical line */
+ text-align: left !important;
+    display: block; /* Make sure it behaves like a block element */
+
 }
 .grid-header-text::before {
     content: "";
