@@ -48,3 +48,10 @@ span#\38e815af-f24b-4d9b-ad3f-93b411df10c9 {
     background-color: red; /* Red color for vertical line */
     border-radius: 2px; /* Optional: Rounded corners */
 }
+.input-control-watermark {
+    border: 2px solid black; /* Black border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 5px; /* Add some padding inside */
+    background-color: transparent; /* Optional: Keep it transparent */
+}
+
