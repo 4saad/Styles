@@ -90,22 +90,10 @@ body::before {
 {
     border-top: 8px solid  #e62b37 !important;
 }
-.grid-header-text
+.theme-entry .form .toolbars, .theme-entry #pgInnerPanel .toolbars, .theme-entry .form-tabs > .tab-box-body .toolbars, .theme-entry #pgTabContent .toolbars
 {
-      color: black !important; /* Set text color to black */
-    position: relative; /* Required for pseudo-element */
-    padding-left: 40px !important; /* Space between text and vertical line */
- text-align: left !important;
-    display: block; /* Make sure it behaves like a block element */
-
-}
-.grid-header-text::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 6px; /* Thickness of the red line */
-    background-color: #e62b37; /* Red color for vertical line */
-    border-radius: 2px; /* Optional: Rounded corners */
+    --toolbar-button-icon-highlight-color : #e62b37;
+    --toolbar-button-icon-base-color :  #e62b37;
+    --toolbar-button-icon-base-secondary-color : #e62b37;
+        --toolbar-button-icon-destructive-color :  #e62b37;
 }
