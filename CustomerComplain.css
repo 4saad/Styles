@@ -75,10 +75,17 @@ a#\30 0000000-0000-0000-0000-000000000000_4d558aef-c0d4-48ab-9389-79b38792a97c {
     width : 200px !important;
     height: auto !important;
 }
-body
-{
-  border-top :   8px solid  #e62b37 !important;
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8px; /* Same as border thickness */
+    background-color: #e62b37; /* Red color */
+    z-index: 9999; /* Ensure it's on top */
 }
+
 .theme-entry.psf div.sidebar
 {
     border-top: 8px solid  #e62b37 !important;
