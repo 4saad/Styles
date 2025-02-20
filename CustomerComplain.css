@@ -35,9 +35,13 @@ color:  gray !important ;
     border-radius : 10px 10px 10px 10px;
 }
     .theme-entry.psf div.sidebar
-    {width: max-content !important;}
+    {width: 290px;}
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab span.tab-text
     {
         width: max-content;
     }
     
+.theme-entry.psf, body.theme-entry .psf, .theme-entry.psf .form, .theme-entry.psf #pgInnerPanel, .theme-entry.psf .form-tabs>.tab-box-body, .theme-entry.psf #pgTabContent, .theme-entry.psf .view .innerpanel>.grid, .theme-entry.psf .view .innerpanel>.panel, .theme-entry.psf .view-canvas>.grid, .theme-entry.psf .view-canvas>.panel, .theme-entry .form .view .innerpanel>.grid, .theme-entry #pgInnerPanel .view .innerpanel>.grid, .theme-entry .form-tabs>.tab-box-body .view .innerpanel>.grid, .theme-entry #pgTabContent .view .innerpanel>.grid, .theme-entry .form .view .innerpanel>.panel, .theme-entry #pgInnerPanel .view .innerpanel>.panel, .theme-entry .form-tabs>.tab-box-body .view .innerpanel>.panel, .theme-entry #pgTabContent .view .innerpanel>.panel, .theme-entry .form .view-canvas>.grid, .theme-entry #pgInnerPanel .view-canvas>.grid, .theme-entry .form-tabs>.tab-box-body .view-canvas>.grid, .theme-entry #pgTabContent .view-canvas>.grid, .theme-entry .form .view-canvas>.panel, .theme-entry #pgInnerPanel .view-canvas>.panel, .theme-entry .form-tabs>.tab-box-body .view-canvas>.panel, .theme-entry #pgTabContent .view-canvas>.panel    {
+    {
+    --sidebar-width-ratio: 3% !important;
+    }
