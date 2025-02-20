@@ -33,7 +33,7 @@ color:  gray !important ;
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected
 {
     border-radius : 10px 10px 10px 10px;
-    color : #e62b37;
+    color : #e62b37 !important;
     font-weight : bold;
 }
     .theme-entry.psf div.sidebar
