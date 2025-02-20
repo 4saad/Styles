@@ -1,7 +1,7 @@
 h2 {
-    color: black; /* Set text color to black */
+    color: black !important; /* Set text color to black */
     position: relative; /* Required for pseudo-element */
-    padding-left: 40px; /* Space between text and vertical line */
+    padding-left: 40px !important; /* Space between text and vertical line */
 }
 
 /* Add a red vertical line to the left */
@@ -16,5 +16,16 @@ h2::before {
     border-radius: 2px; /* Optional: Rounded corners */
 }
 
+.theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab
+{
+color:  gray !important ;
 
-
+    
+}
+.theme-entry.psf div.sidebar
+{
+    background-color : white !important
+}
+.theme-entry.psf div.sidebar ul.tab-box-tabs > li > a.tab.active span.tab-text {
+    color: #e62b37 !important; /* Change text color to red for the active tab */
+}
