@@ -1,4 +1,3 @@
-div#\39 c50675f-a67a-44d3-96c7-d44818c1a686_f200ecd5-aa92-4581-8f9c-0541b29649ea_Table
 h2 {
     color: black !important; /* Set text color to black */
     position: relative; /* Required for pseudo-element */
@@ -70,5 +69,5 @@ a#\30 0000000-0000-0000-0000-000000000000_4d558aef-c0d4-48ab-9389-79b38792a97c {
 }
 .theme-entry .grid .grid-column-headers div, .theme-entry .grid .grid-column-headers span
 {
-    background: #e62b37;
+    background: #e62b37 !important;
 }
