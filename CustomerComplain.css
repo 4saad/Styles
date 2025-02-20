@@ -90,3 +90,19 @@ body::before {
 {
     border-top: 8px solid  #e62b37 !important;
 }
+.grid-header-text
+{
+      color: black !important; /* Set text color to black */
+    position: relative; /* Required for pseudo-element */
+    padding-left: 40px !important; /* Space between text and vertical line */
+}
+.grid-header-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 6px; /* Thickness of the red line */
+    background-color: #e62b37; /* Red color for vertical line */
+    border-radius: 2px; /* Optional: Rounded corners */
+}
