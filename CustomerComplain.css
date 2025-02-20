@@ -1,4 +1,4 @@
-#8c4af5c7-0422-40c2-bdff-3bf85abf117f {
+span#\38 8e815af-f24b-4d9b-ad3f-93b411df10c9 {
     color: blue; /* Change text color */
     font-weight: bold;
     background-color: yellow; /* Add background */
@@ -6,7 +6,7 @@
     border-radius: 4px;
 }
 
-.card #8c4af5c7-0422-40c2-bdff-3bf85abf117f {
+.card span#\38 8e815af-f24b-4d9b-ad3f-93b411df10c9 {
     font-size: 16px;
     text-transform: uppercase;
 }
