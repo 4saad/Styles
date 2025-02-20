@@ -26,6 +26,6 @@ color:  gray !important ;
 {
     background-color : white !important
 }
-.theme-entry.psf div.sidebar ul.tab-box-tabs > li > a.tab.active span.tab-text {
-    color: #e62b37 !important; /* Change text color to red for the active tab */
+.theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected {
+    background-color: #e7dede !important; /* Change text color to red for the active tab */
 }
