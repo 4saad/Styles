@@ -36,3 +36,8 @@ color:  gray !important ;
 }
     .theme-entry.psf div.sidebar
     {width: max-content !important;}
+.theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab span.tab-text
+    {
+        width: max-content;
+    }
+    
