@@ -12,7 +12,7 @@ h2::before {
     left: 0;
     top: 0;
     height: 100%;
-    width: 4px; /* Thickness of the red line */
+    width: 6px; /* Thickness of the red line */
     background-color: #e62b37; /* Red color for vertical line */
     border-radius: 2px; /* Optional: Rounded corners */
 }
