@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Find the container div
-    let menuContainer = document.querySelector(".Menu.ItemView");
-    if (!menuContainer) return; // Exit if not found
+    let menuContainer = document.querySelector(".Table");
+    if (!menuContainer)
+    { alert("no table");
+        return;} // Exit if not found
 
     // Find the table inside .Menu.ItemView
     let table = menuContainer.querySelector("table"); 
