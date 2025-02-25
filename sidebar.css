@@ -1,0 +1,18 @@
+/* Sidebar styles */
+#sidebar {
+    width: 250px;
+    background: #f4f4f4;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Adjust the main table layout */
+.with-sidebar {
+    margin-left: 270px; /* Push table to the right */
+    width: calc(100% - 270px); 
+}
