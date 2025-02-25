@@ -1,4 +1,4 @@
-renderSidebar = () => {
+document.addEventListener("DOMContentLoaded", function() {
     alert('inn');
     const sidebar = $("<div id='sidebar' class='sidebar'></div>");
     $('.NewSidebarthree').append(sidebar);
@@ -16,7 +16,3 @@ renderSidebar = () => {
     }
 
 }
-
-renderDrawer = () => {
-    renderSidebar();
- }
