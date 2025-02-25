@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Find the container div
 
     alert("inn");
-    let menuContainer = document.querySelector(".Table");
+    let menuContainer = document.querySelector(".NewSidebarthree");
     if (!menuContainer)
-    { alert("no table");
+    { alert("NewSidebarthree");
         return;} // Exit if not found
 
     // Find the table inside .Menu.ItemView
