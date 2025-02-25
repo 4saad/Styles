@@ -15,4 +15,5 @@ document.addEventListener("DOMContentLoaded", function() {
         $('a.tab').append('<div class="sidebar-border"><span class="top"></span><span class="bottom"></span></div>');
     }
 
-}
+ });
+
