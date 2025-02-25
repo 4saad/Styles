@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Find the container div
+
+    alert("inn");
     let menuContainer = document.querySelector(".Table");
     if (!menuContainer)
     { alert("no table");
