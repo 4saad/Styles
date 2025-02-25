@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Find the table inside K2 form
-    let table = document.querySelector(".k2-form table"); 
+    // Find the container div
+    let menuContainer = document.querySelector(".Menu.ItemView");
+    if (!menuContainer) return; // Exit if not found
+
+    // Find the table inside .Menu.ItemView
+    let table = menuContainer.querySelector("table"); 
     if (!table) return; // Exit if no table found
 
     // Create the sidebar div
@@ -18,8 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Insert sidebar before the table
-    table.parentNode.insertBefore(sidebar, table);
+    menuContainer.insertBefore(sidebar, table);
 
-    // Add a class to table for styling adjustments
+    // Add a class to the table for styling adjustments
     table.classList.add("with-sidebar");
 });
