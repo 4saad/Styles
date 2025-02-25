@@ -1,13 +1,28 @@
 #NewSidebarthree {
     position: fixed;
     left: -250px; /* Initially hidden */
-    top: 0;
+    top: 50px; /* Adjust to avoid the header */
     width: 250px;
     height: 100%;
     background-color: #333;
     transition: left 0.3s ease-in-out;
+    padding: 10px;
+    color: white;
+    z-index: 1000;
 }
 
 #NewSidebarthree.open {
     left: 0; /* Slide into view */
+}
+
+/* Style sidebar items */
+#NewSidebarthree a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#NewSidebarthree a:hover {
+    background-color: #575757;
 }
